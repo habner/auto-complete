@@ -1,0 +1,33 @@
+.auto-complete > .input {
+    width: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    padding: 8px;
+}
+
+.auto-complete > .list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    width: 200px;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
+.auto-complete > .list > .item {
+    padding: 8px;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color: #ddd;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.auto-complete > .list > .item:hover {
+    background-color: #eee;
+}
